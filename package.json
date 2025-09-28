@@ -1,0 +1,27 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "-This is a graphQL.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferm12/graphql.git"
+  },
+  "author": "Fermin Pureco Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferm12/graphql/issues"
+  },
+  "homepage": "https://github.com/ferm12/graphql#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
